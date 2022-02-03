@@ -8,16 +8,12 @@ Simple tutorial on Gaussian and Poisson generalized linear models
 
 **Slides**: This tutorial was prepared for use in a
 "Short Course" on [Data Science and Data Skills for Neuroscientists](https://neuronline.sfn.org/scientific-research/data-science-and-data-skills-for-neuroscientists#:~:text=Data%20science%20is%20fast%2Dgrowing,be%20used%20in%20different%20circumstances) organized at the SFN 2016 meeting. The slides used during the 1-hour
-presentation are available [here](https://github.com/pillowlab/GLMspiketraintutorial/tree/master/slides). 
+presentation are available [here](https://github.com/pillowlab/GLMspiketraintutorial/blob/master/slides/slides_SFNshortcourse_Nov2016.pdf). 
 
 **Dataset**:  A small dataset required for the tutorial is available
 [here](https://pillowlab.princeton.edu/data/data_RGCs.zip).
 
-The tutorial is broken into four pieces which aim to introduce methods
-for fitting and simulating Gaussian and Poisson regression models for
-spike train data. Each is an interactive, self-contained script with
-'blocks' of code that demonstrate each step in the fitting / analysis
-/ model comparison pipeline:
+**Description**: The tutorial contains five jupyter notebooks that cover various methods for fitting and analyzing Gaussian and Poisson regression models for spike train data. Each notebook an interactive, self-contained script with 'blocks' of code that demonstrate each step in the fitting / analysis / model comparison pipeline:
 
 * **tutorial1_PoissonGLM.ipynb** - illustrates the fitting of a
 linear-Gaussian GLM (also known as the 'linear least-squares
@@ -43,7 +39,18 @@ between neurons).
 
 * **tutorial5_MAPdecoding.ipynb** - Bayesian (MAP) decoding of the stimulus from spikes under a fitted Poisson GLM (with or without spike-history).  (_Note: this tutorial was added by J. Kaminsky, and does not exist in the Matlab version_)
  
-------------
+ <br>
+ 
+------- 
+
+**Citation**:  If you wish to cite this tutorial, feel free to acknowledge the paper from which it developed: [Pillow et al, *Nature* 2008](http://pillowlab.princeton.edu/pubs/abs_Pillow08_nature.html).  Or, for the MAP decoding tutorial, cite: [Pillow et al, *Neural Comp* 2011](http://pillowlab.princeton.edu/pubs/abs_pillow11_NC.html).
+ 
+
+
+
+ <br>
+
+-------
 
 **Relevance / comparison to other GLM packages**:
 
