@@ -10,8 +10,7 @@ Simple tutorial on Gaussian and Poisson generalized linear models
 "Short Course" on [Data Science and Data Skills for Neuroscientists](https://neuronline.sfn.org/scientific-research/data-science-and-data-skills-for-neuroscientists#:~:text=Data%20science%20is%20fast%2Dgrowing,be%20used%20in%20different%20circumstances) organized at the SFN 2016 meeting. The slides used during the 1-hour
 presentation are available [here](https://github.com/pillowlab/GLMspiketraintutorial/blob/master/slides/slides_SFNshortcourse_Nov2016.pdf). 
 
-**Dataset**:  A small dataset required for the tutorial is available
-[here](https://pillowlab.princeton.edu/data/data_RGCs.zip).
+**Dataset**:  A small dataset required for the tutorial (provided by EJ Chichilnisky) is provided in the directory [data_RGCs](https://github.com/pillowlab/GLMspiketraintutorial_python/tree/main/data_RGCs).
 
 **Description**: The tutorial contains five jupyter notebooks that cover various methods for fitting and analyzing Gaussian and Poisson regression models for spike train data. Each notebook an interactive, self-contained script with 'blocks' of code that demonstrate each step in the fitting / analysis / model comparison pipeline:
 
