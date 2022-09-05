@@ -12,6 +12,8 @@ presentation are available [here](https://github.com/pillowlab/GLMspiketraintuto
 
 **Dataset**:  A small dataset required for the tutorial (provided by EJ Chichilnisky) is provided in the directory [data_RGCs](https://github.com/pillowlab/GLMspiketraintutorial_python/tree/main/data_RGCs).
 
+**Installation**: Clone the repo into the same directory as the provided dataset. Additionally, this tutorial requires that you have scipy, numpy, matplotlib, and [statsmodels](https://www.statsmodels.org/dev/install.html) installed. This tutorial runs on python 3.
+
 **Description**: The tutorial contains five jupyter notebooks that cover various methods for fitting and analyzing Gaussian and Poisson regression models for spike train data. Each notebook an interactive, self-contained script with 'blocks' of code that demonstrate each step in the fitting / analysis / model comparison pipeline:
 
 * **tutorial1_PoissonGLM.ipynb** - illustrates the fitting of a
